@@ -1,10 +1,9 @@
-@media screen and (min-width : 1000px){
-    
+
     html{
-        width: 100%;
         text-align: center;
     }
     body{
+        width: 100vw;
         z-index: -5;
         display: flex;
         flex-direction: column;
@@ -32,13 +31,11 @@
         position: fixed;
         background-color: black;
         box-shadow: 1px 1px 10px white;
-        box-shadow: 1px;
         width: 100%;
         height: 100px;
         z-index: 1000;
     }
     .icon{
-        z-index: calc(inherit + 1);
         width: 60px;
         margin-top: 20px;
     }
@@ -76,7 +73,7 @@
         width: 100%;
         z-index: 0;
         border-top: 1px solid white;
-        display: flexbox;
+        display: flex;
         flex-wrap: wrap;   
         justify-content: center; 
         flex-direction: row;
@@ -100,6 +97,7 @@
         font-size: 128px;  
         text-align: center;
         opacity: 0.5; 
+        margin-bottom: 50vh;
     }
     .form_title{
         width: 100%;
@@ -109,16 +107,14 @@
         margin-bottom: 20px;
     }
     .slider_container{
+        box-shadow: 2px 2px 50px black,
+                    -2px -2px 50px black,
+                    -2px 2px 50px black,
+                    2px -2px 50px black;
+        width: 100%;
+        display: flex;
         background-color: black;
-        width: 100%;
-        box-shadow: 2px 2px 40px black,
-        -2px 2px 20px black,
-        2px -2px 20px black,
-        -2px -2px 20px black;
-    }
-    .slider{
-        width: 100%;
-        margin-top: calc(50vh);
+        justify-content: center;
     }
     .main{
         display: flex;
@@ -134,7 +130,6 @@
                     -2px 2px 20px black,
                     2px -2px 20px black,
                     -2px -2px 20px black;
-        background-size: 100%;
         flex-wrap: wrap;
         display: flex;
         flex-direction: row;
@@ -164,9 +159,7 @@
             5px -5px 50px black,
             -5px 5px 50px black ;
         margin-top: 125px;
-        height: 33%;
         width: 80vw;
-        min-width: 50%;
     }
     .player_container{
         margin-bottom: 125px;
@@ -352,7 +345,7 @@
     .fa-brands:hover{
         transform: scale(1.2);
     }
-}
+
 @media screen and (max-width : 1000px){ 
     html{
         width: 100%;
@@ -386,7 +379,6 @@
         position: fixed;
         background-color: black;
         box-shadow: 1px 1px 10px white;
-        box-shadow: 1px;
         width: 100%;
         height: 20vh;
         z-index: 1000;
@@ -427,7 +419,7 @@
         width: 100%;
         z-index: 0;
         border-top: 1px solid white;
-        display: flexbox;
+        display: flex;
         flex-wrap: wrap;   
         justify-content: center; 
         flex-direction: row;
@@ -464,16 +456,14 @@
         margin-bottom: 20px;
     }
     .slider_container{
+        box-shadow: 2px 2px 50px black,
+                    -2px -2px 50px black,
+                    -2px 2px 50px black,
+                    2px -2px 50px black;
+        width: 100%;
+        display: flex;
         background-color: black;
-        width: 100%;
-        box-shadow: 2px 2px 40px black,
-        -2px 2px 20px black,
-        2px -2px 20px black,
-        -2px -2px 20px black;
-    }
-    .slider{
-        width: 100%;
-        margin-top: calc(50vh);
+        justify-content: center;
     }
     .main{
         display: flex;
@@ -481,7 +471,6 @@
         flex-direction: column;
         align-items: center;
         position:relative;
-        height: fit-content;
        /* background: url(../img/Noxus_The_Immortal_Bastion_01.webp) no-repeat;*/
     }
     .main_container {
@@ -565,14 +554,15 @@
     }
     .tail1
     {
+        margin-bottom: 10px;
         box-shadow: 1px 1px 10px white;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content:center;
         align-items: flex-end;
-        min-width: 80vw;
-        height: 32vh;
+        width: 80vw;
+        height: 50vh;
         background: center center url(../img/noxus-perpetual-conflict.jpg) no-repeat;
         background-size: cover;
         min-width: calc(780px / 3);
@@ -588,6 +578,7 @@
     }
     .tail2
     {
+        margin-bottom: 10px;
         min-width: calc(780px / 3);
         box-shadow: 1px 1px 10px white;
         display: flex;
@@ -595,8 +586,8 @@
         flex-direction: row;
         justify-content:center;
         align-items: flex-end;
-        min-width: 80vw;
-        height: 32vh;
+        width: 80vw;
+        height: 50vh;
         background:  center center url(../img/swain-color-story-bg.jpg) no-repeat;
         background-size: cover;
     }
@@ -618,8 +609,8 @@
         flex-direction: row;
         justify-content:center;
         align-items: flex-end;
-        min-width: 80vw;
-        height: 32vh;
+        width: 80vw;
+        height: 50vh;
         background:  center center url(../img/proclamation-splash.jpg) no-repeat;
         background-size: cover;
     } 
@@ -637,7 +628,7 @@
         -2px 2px 20px black,
         2px -2px 20px black,
         -2px -2px 20px black;
-        height: 30vh;
+        height: 50vh;
         width: 80vw;
         display: flex;
         flex-direction: column;
@@ -702,7 +693,7 @@
         justify-content: space-around;
     }
     .footer_ul>li{
-        font-size: 10vh;
+        font-size: 7vh;
         margin-left: 50px;
     }
     .fa-brands:hover{
