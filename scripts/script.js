@@ -59,3 +59,23 @@ function onPlayerStateChange(event) {
     swain_theme.play();
   }
 }
+let nav_flag = false;
+icon.addEventListener("click",funn);
+function funn(){
+  let li_count = document.getElementsByClassName("nav_list_li").length;
+  if(nav_flag == false && window.outerWidth <= 1000){
+    document.getElementsByClassName("header")[0].style.height = "100vh";
+    document.getElementsByClassName("header")[0].style.width = "30vw";
+    document.getElementsByClassName("header")[0].style.backgroundColor = "black";
+    document.getElementsByClassName("header")[0].style.opacity = "0.7";
+    for (let i=1; i < li_count;i++)document.getElementsByClassName("nav_list_li")[i].style.visibility = "visible";
+    nav_flag = !nav_flag;
+  }
+  else if(nav_flag == true && window.outerWidth <= 1000){
+    document.getElementsByClassName("header")[0].style.height = "100vh";
+    document.getElementsByClassName("header")[0].style.width = "0";
+    document.getElementsByClassName("header")[0].style.backgroundColor = "black";
+    for (let i=1; i < li_count;i++)document.getElementsByClassName("nav_list_li")[i].style.visibility = "hidden";
+    nav_flag = !nav_flag;
+  }
+};
