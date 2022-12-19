@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Джерико Свейн - кандидат от народа</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/simple-adaptive-slider.min.css">
+    <link rel="stylesheet" href="fonts/TGC/stylesheet.css">
+    <link rel="shortcut icon" href="img/raven_slider.png" type="image/x-icon">
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <script defer src="scripts/simple-adaptive-slider.min.js"></script>
+    <script src="https://kit.fontawesome.com/9b3cdbe1e0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <audio id="swain_theme">
+        <source src="music-splash-swain.mp3" type="audio/ogg">
+    </audio>
+    <header class="header">
+        <nav class="nav">   
+            <ul class="nav_list">
+                <li>
+                    <a href="" id="icon_a"><img src="img/raven_slider.png" alt="" class="icon"></a>
+                </li>
+                <li>
+                    <a href="index.html"><span>Главная</span></a>
+                </li>
+                <li>
+                    <a href="index.html"><span>Биография</span></a>
+                </li>
+                <li>
+                    <a href=""><span>Контакты</span></a>
+                </li>
+                <li>
+                    <button id="music_control"><img src="img/music_crossed.png" alt="" id="music_control_img"></button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="bg"></div>
+    <div class="content">
+        <div id="h1"><h1>Jericho Swain</h1></div>
+        <div class="slider_container">
+            <div class="slider">
+                <div class="slider__wrapper">
+                    <div class="slider__items">
+                        <div class="slider__item">
+                            <img src="img/Swain_OriginalCentered.webp" alt="Свейн" class="sw">
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/Swain_BilgewaterCentered.webp" alt="Свейн из Билджвотера" class="sw">
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/Swain_CrystalRoseCentered.webp" alt="Хрустальная роза Свейн" class="sw">
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/Swain_DragonMasterCentered.webp" alt="Повелитель драконов Свейн" class="sw">
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/Swain_HextechCentered.webp" alt="Хекстековый Свейн" class="sw">
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/Swain_NorthernFrontCentered.webp" alt="Свейн с Северного фронта" class="sw">
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/Swain_TyrantCentered.webp" alt="Тиран Свейн" class="sw">
+                        </div>
+                        <div class="slider__item">
+                            <img src="img/Swain_WinterblessedSkin.webp" alt="Избранник Зимы Свейн" class="sw">
+                        </div>
+                    </div>
+                </div>
+                <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+                <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+            </div>
+            </div>
+        </div>
+        <main class="main">
+            <div class="main_container">
+                <div id="main_img_div">
+                    <img src="img/swain_hor.jpg" alt="" id="main_img">
+                </div>
+                <div class="info">
+                    Джерико Свейн – дальновидный правитель Ноксуса, нации, которая стремится к завоеваниям и уважает только силу. В войне с Ионией он был разбит и искалечен, но все же сумел решительно и безжалостно захватить власть над империей. В этом ему помогла демоническая левая рука, заменившая ту, которую он потерял на войне. Теперь Свейн лично ведет свои войска в бой, бесстрашно маршируя навстречу грядущей тьме, которую не видит никто, кроме него – тьме в глазах призрачного воронья, кружащего над трупами. Но главный секрет в этом вихре жертв и тайн заключается в том, что главный враг и есть он сам.
+                </div>
+            </div>
+            <div class="player_container">
+                <div id="player"></div>
+            </div>
+            <div class="tails_container">
+                <div class="tail1">
+                    <p>Принципы силы</p>
+                    <a href="index.html">Читать далее</a>
+                </div>
+                <div class="tail2">
+                    <p>Пороховой заговор</p>
+                    <a href="index.html">Читать далее</a>
+                </div>
+                <div class="tail3">
+                    <p>Весть о Трифариксе</p>
+                    <a href="index.html">Читать далее</a>
+                </div>
+            </div>
+        </main>
+        <div class="form_title"><h2>Вступайте в ряды армии Ноксуса!</h2></div>
+        <div class="army">
+            <form action="" id="army" method="post">
+                <input type="text" placeholder="Имя" required class="form_inp">
+                <input type="text" placeholder="Второе имя" required class="form_inp">
+                <select name="select" form="army" required class="form_inp">
+                    <option disabled value="0">Выберите область происхождения</option>
+                    <option>Бандл Сити</option>
+                    <option>Бездна</option>
+                    <option>Билджвотер</option>
+                    <option>Демасия</option>
+                    <option>Заун</option>
+                    <option>Иония</option>
+                    <option>Ишталь</option>
+                    <option>Ноксус</option>
+                    <option>Пилтовер</option>
+                    <option>Сумрачные острова</option>
+                    <option>Таргон</option>
+                    <option>Фрельйорд</option>
+                </select>
+                <button class="form_inp" id="form_but">Отправить заявку</button>
+            </form>
+        </div>
+    <footer class="footer">
+        <ul class="footer_ul">
+            <li>
+                <a href="https://discordapp.com/users/703224686191968266/"><i class="fa-brands fa-discord"></i></a>
+            </li>
+            <li>
+                <i class="fa-brands fa-github"></i>
+            </li>
+            <li>
+                <a href="tg://resolve?domain=swain_main"><i class="fa-brands fa-telegram"></i></a>
+            </li>
+        </ul>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
