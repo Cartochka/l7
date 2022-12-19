@@ -388,15 +388,16 @@
         box-shadow: 1px 1px 10px white;
         box-shadow: 1px;
         width: 100%;
-        height: 20vh;
+        height: 10vh;
         z-index: 1000;
         display: flex;
     }
     .icon{
-        height: 10vh;
-        margin-top: 5vh;
+        height: 5vh;
+        margin-top: 2.5vh;
     }
     .nav_list{
+        margin-left: 10px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -571,7 +572,7 @@
         flex-direction: row;
         justify-content:center;
         align-items: flex-end;
-        min-width: 80vw;
+        width: 80vw;
         height: 32vh;
         background: center center url(../img/noxus-perpetual-conflict.jpg) no-repeat;
         background-size: cover;
@@ -595,7 +596,7 @@
         flex-direction: row;
         justify-content:center;
         align-items: flex-end;
-        min-width: 80vw;
+        width: 80vw;
         height: 32vh;
         background:  center center url(../img/swain-color-story-bg.jpg) no-repeat;
         background-size: cover;
@@ -618,7 +619,7 @@
         flex-direction: row;
         justify-content:center;
         align-items: flex-end;
-        min-width: 80vw;
+        width: 80vw;
         height: 32vh;
         background:  center center url(../img/proclamation-splash.jpg) no-repeat;
         background-size: cover;
