@@ -571,7 +571,7 @@
         flex-direction: row;
         justify-content:center;
         align-items: flex-end;
-        width: 32vw;
+        width: 80vw;
         height: 32vh;
         background: center center url(../img/noxus-perpetual-conflict.jpg) no-repeat;
         background-size: cover;
@@ -595,7 +595,7 @@
         flex-direction: row;
         justify-content:center;
         align-items: flex-end;
-        width: 32vw;
+        width: 80vw;
         height: 32vh;
         background:  center center url(../img/swain-color-story-bg.jpg) no-repeat;
         background-size: cover;
@@ -618,7 +618,7 @@
         flex-direction: row;
         justify-content:center;
         align-items: flex-end;
-        width: 32vw;
+        width: 80vw;
         height: 32vh;
         background:  center center url(../img/proclamation-splash.jpg) no-repeat;
         background-size: cover;
